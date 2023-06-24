@@ -73,6 +73,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.3.3+4"
+  crypto:
+    dependency: transitive
+    description:
+      name: crypto
+      sha256: ff625774173754681d66daaf4a448684fb04b78f902da9cb3d308c19cc5e8bab
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.0.3"
   cupertino_icons:
     dependency: "direct main"
     description:
@@ -105,6 +113,22 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.0.2"
+  ffmpeg_kit_flutter_https_gpl:
+    dependency: transitive
+    description:
+      name: ffmpeg_kit_flutter_https_gpl
+      sha256: "529588f76e87cc12d3dde196582438f536c3521ed36432c21bf2a935e2f2bbd5"
+      url: "https://pub.dev"
+    source: hosted
+    version: "5.1.0"
+  ffmpeg_kit_flutter_platform_interface:
+    dependency: transitive
+    description:
+      name: ffmpeg_kit_flutter_platform_interface
+      sha256: addf046ae44e190ad0101b2fde2ad909a3cd08a2a109f6106d2f7048b7abedee
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.2.1"
   file:
     dependency: transitive
     description:
@@ -400,6 +424,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.4"
+  nested:
+    dependency: transitive
+    description:
+      name: nested
+      sha256: "03bac4c528c64c95c722ec99280375a6f2fc708eec17c7b3f07253b626cd2a20"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.0"
   path:
     dependency: transitive
     description:
@@ -544,6 +576,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.0"
+  provider:
+    dependency: transitive
+    description:
+      name: provider
+      sha256: cdbe7530b12ecd9eb455bdaa2fcb8d4dad22e80b8afb4798b41479d5ce26847f
+      url: "https://pub.dev"
+    source: hosted
+    version: "6.0.5"
   qr:
     dependency: transitive
     description:
@@ -552,6 +592,22 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.0.1"
+  render:
+    dependency: "direct main"
+    description:
+      name: render
+      sha256: "2936cd32e1fe70a8af28c5adef7e6acdfbbc18a86c2242f4c4682c067d0ed297"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.1.3"
+  rich_console:
+    dependency: transitive
+    description:
+      name: rich_console
+      sha256: ffec58e93c7033c433e0fc2c0b1de4d0c745b369cb2c584f47bc309627e8dcb3
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.4"
   screenshot:
     dependency: "direct main"
     description:
@@ -621,6 +677,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.3.2"
+  uuid:
+    dependency: transitive
+    description:
+      name: uuid
+      sha256: "648e103079f7c64a36dc7d39369cabb358d377078a051d6ae2ad3aa539519313"
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.0.7"
   vector_math:
     dependency: transitive
     description:
