@@ -23,6 +23,8 @@ class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     TextField textField = TextField(
+      maxLines: 2,
+      keyboardType: TextInputType.multiline, textInputAction: TextInputAction.newline,
       decoration: InputDecoration(
         border: OutlineInputBorder(),
         labelText: 'Enter Value',
@@ -33,13 +35,27 @@ class MyHomePage extends StatelessWidget {
 
     AlertDialog alertDialog = AlertDialog(
 
-      content: textField,
+      content: Container(
+        height: 50,
+          width: 300,
+          child: textField),
+
       actions: [
         ElevatedButton(
           child: Text('Confirm'),
           onPressed: () {
             // Perform actions when the user taps the OK button
-            print("Text : "+mycontroller.text);
+            if(mycontroller.text==""|| mycontroller.text==null)
+              {
+                print("No data found");
+              }
+            else{
+              print("Text : "+mycontroller.text);
+              mycontroller.text =  "";
+              Navigator.pop(context);
+            }
+
+
           },
         ),
       ],
