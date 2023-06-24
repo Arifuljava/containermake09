@@ -1,8 +1,12 @@
 import 'package:containermake/againfragment.dart';
+import 'package:containermake/barcodescan.dart';
 import 'package:containermake/bottomsheet.dart';
 import 'package:containermake/centerfragment.dart';
 import 'package:containermake/containerbitmap.dart';
 import 'package:containermake/draganddropable.dart';
+import 'package:containermake/imageeditorget.dart';
+import 'package:containermake/imagegetter.dart';
+import 'package:containermake/imagepickup.dart';
 import 'package:containermake/makeupcontainer.dart';
 import 'package:containermake/posititonedcontainer.dart';
 import 'package:containermake/secondfragment.dart';
@@ -10,7 +14,7 @@ import 'package:containermake/shwocontainer.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp( secondfragment());
+  runApp( imageeditorget());
 }
 
 class MyApp extends StatelessWidget {
@@ -23,7 +27,7 @@ class MyApp extends StatelessWidget {
       title: 'Nested Containers',
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Nested Containers'),
+          title: Text('Nested bsrcode'),
         ),
         body: Center(
           child: Container(

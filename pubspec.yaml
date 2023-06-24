@@ -32,6 +32,15 @@ dependencies:
     sdk: flutter
   barcode_widget:
   screenshot:
+  barcode_scan2:
+  flutter_image_compress:
+  path_provider:
+  permission_handler:
+  image_editor: ^1.2.2
+  image_crop: ^0.4.1
+  image_cropper:
+  image_picker:
+  dotted_border:
 
 
   # The following adds the Cupertino Icons font to your application.
